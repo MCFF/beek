@@ -1,0 +1,36 @@
+.options {
+  align-items: center;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.options button {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+}
+
+.options h1 {
+  font-size: 2rem;
+}
+
+.options ul {
+  margin-top: 10px;
+  width: 90%;
+}
+
+.options ul li {
+  border: 1px solid black;
+  font-size: 1.5rem;
+  padding: 5px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 100%;
+}

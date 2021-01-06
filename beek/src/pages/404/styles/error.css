@@ -1,0 +1,15 @@
+.error {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+}
+
+.error h1 {
+  font-size: 5rem;
+}
+
+.error p {
+  font-size: 3rem;
+}

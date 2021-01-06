@@ -1,0 +1,82 @@
+:root {
+  --color-principal: #37aec9;
+  --color-principal-45: #37aec945;
+  --color-gold: #c2a604;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.layout--header {
+  background-color: rgba(232, 232, 232, 0.5);
+  box-shadow: 0 1px 4px rgba(36, 36, 36, 0.42);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.layout--header input {
+  border: none;
+  height: 30px;
+  width: 90%;
+}
+
+.layout--header--back {
+  display: flex;
+  width: 100%;
+}
+
+.layout--header--back p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.layout--header--back button img {
+  width: 15px;
+}
+
+.layout--header--back button {
+  background: transparent;
+  border: none;
+  margin-left: 20px;
+}
+
+.layout--header--search {
+  align-items: center;
+  background: white;
+  border: 1.5px solid gray;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.layout--header--search picture {
+  display: flex;
+  height: 20px;
+  width: 20px;
+}
+
+.layout--header--search picture img {
+  width: 100%;
+}
+
+.layout--main {
+  margin-top: 10px;
+}

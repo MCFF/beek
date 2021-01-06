@@ -1,0 +1,39 @@
+.deleteAudiobooks {
+  align-items: center;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.deleteAudiobooks--button {
+  border: none;
+  height: 30px;
+  margin-top: 30px;
+  width: 50%;
+}
+
+.deleteAudiobooks div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+}
+
+.deleteAudiobooks--button__transparent {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.deleteAudiobooks--button__red {
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+}

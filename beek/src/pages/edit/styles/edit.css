@@ -1,0 +1,28 @@
+.new--form {
+  display: flex;
+  justify-content: center;
+}
+
+.new--form form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+.new--form form input {
+  height: 30px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.new--form form p {
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+.new--form--input__green {
+  color: white;
+  background-color: green;
+  border: none;
+}
