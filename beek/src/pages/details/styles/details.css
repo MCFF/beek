@@ -22,6 +22,7 @@
 }
 
 .details--controllers--playback img {
+  height: 100%;
   width: 100%;
 }
 
@@ -33,6 +34,7 @@
 }
 
 .details--controllers--options img {
+  height: 100%;
   width: 100%;
 }
 
@@ -43,6 +45,7 @@
 }
 
 .details--cover img {
+  height: 100%;
   width: 100%;
 }
 
